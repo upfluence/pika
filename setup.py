@@ -15,8 +15,8 @@ long_description = ('Pika is a pure-Python implementation of the AMQP 0-9-1 '
                     'primarily for use with RabbitMQ, but should also work '
                     'with other AMQP 0-9-1 brokers.')
 
-setup(name='pika',
-      version='0.10.0',
+setup(name='pika-upfluence',
+      version='0.10.2',
       description='Pika Python AMQP Client Library',
       long_description=open('README.rst').read(),
       maintainer='Gavin M. Roy',
