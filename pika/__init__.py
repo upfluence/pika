@@ -1,4 +1,4 @@
-__version__ = '0.10.2-upfluence'
+__version__ = '0.10.3-upfluence'
 
 import logging
 try:
