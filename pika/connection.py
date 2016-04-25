@@ -1821,9 +1821,9 @@ class Connection(object):
             # least frequent heartbeat value there is
             timeout = 0
         else:
-            # Pick the one with the bigger heartbeat timeout (i.e., the less
+            # Pick the one with the smaller heartbeat timeout (i.e., the most
             # frequent one)
-            timeout = max(client_value, server_value)
+            timeout = min(client_value, server_value)
 
         return timeout
 
